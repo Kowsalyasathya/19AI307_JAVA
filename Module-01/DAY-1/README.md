@@ -5,7 +5,7 @@ To define a class named Date with day, month, and year as data members, get the 
 
 ## ALGORITHM :
 
-1.	Start the program.
+1.Start the program.
 
 2.Define a class named Date.
 
