@@ -1,37 +1,63 @@
 # Ex.No:1(B) VARIABLES AND OPERATOR
 
 ## AIM:
-To write a Java program to get values of variables 'a' and 'b' and then check if both the conditions 'a < 50' and 'a < b' are true. [Class name is ‘Demo’]
+To write a Java program that checks whether the given character is an uppercase alphabet, a lowercase alphabet, or not an alphabet (e.g., a digit or symbol).
 
 ## ALGORITHM :
 1.	Start the program.
-2.	Import the necessary package 'java.util'
-3.	Define a class named 'Demo'
-4.	Implement the main method
-5.	Create a new instance of the 'Scanner' class named 'sc' to read user input
-6.	Read an integer 'a' from the user using the 'nextInt' method of 'sc'
-7.	Read another integer 'b' from the user using the 'nextInt' method of 'sc'
-8.	Check if 'a' is less than 50 or if 'a' is less than 'b'
-a)	If the condition is true, print "true" using the 'print' method of 'System.out'
-b)	If the condition is false, print "false" using the 'print' method of 'System.out'
-9.	End
 
+Import the Scanner class from the java.util package.
 
+Define the main class Main.
 
+Inside the main() method:
+
+a. Create a Scanner object to read input.
+
+b. Read a single character from the user.
+
+c. Use Character.isUpperCase() to check if the character is uppercase.
+
+d. If true, print "Upper Case".
+
+e. Otherwise, use Character.isLowerCase() to check if the character is lowercase.
+
+f. If true, print "Lower Case".
+
+g. If both conditions are false, print "Digit".
+
+End the program.
 
 
 ## PROGRAM:
  ```
 /*
 Program to implement a variable and operators using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Kowsalya M
+RegisterNumber:  212222230069
 */
 ```
 
 ## Sourcecode.java:
-
-
+```
+import java.util.*;
+public class Main{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        char ch=sc.next().charAt(0);
+        if(Character.isUpperCase(ch)){
+            System.out.println("Upper Case");
+        }
+        else if(Character.isLowerCase(ch)){
+            System.out.println("Lower Case");
+        }
+        else{
+            System.out.println("Digit");
+        }
+    }
+}
+```
 
 
 
@@ -42,4 +68,4 @@ RegisterNumber:
 
 
 ## RESULT:
-Thus, the Java program to get values of variables 'a' and 'b' and then check if both the conditions 'a < 50' and 'a < b' are true is created successfully.
+Thus, a Java program was successfully written to check whether the given character is an uppercase alphabet, a lowercase alphabet, or a digit, and it displays the result accordingly.
