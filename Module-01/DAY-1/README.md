@@ -5,24 +5,33 @@ To define a class named Date with day, month, and year as data members, get the 
 
 ## ALGORITHM :
 1.	Start the program.
-2.Define a class named Date.
-3.In the Date class, declare three integer variables: day, month, and year.
-4.Define a class named Test.
-5.In the main() method of the Test class:
-6.Create a Scanner object to get input from the user.
-7.Create an object of the Date class.
-8.Read the values for day, month, and year from the user.
-9.Store the values into the object.
-10.Print the date in the format day:month:year.
-11.End the program.
 
+2.Define a class named Date.
+
+3.In the Date class, declare three integer variables: day, month, and year.
+
+4.Define a class named Test.
+
+5.In the main() method of the Test class:
+
+6.Create a Scanner object to get input from the user.
+
+7.Create an object of the Date class.
+
+8.Read the values for day, month, and year from the user.
+
+9.Store the values into the object.
+
+10.Print the date in the format day:month:year.
+
+11.End the program.
 
 ## PROGRAM:
  ```
 /*
 Program to implement a class & objects using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Kowsalya M
+RegisterNumber:  212222230069
 */
 ```
 
@@ -57,4 +66,4 @@ public class Test{
 
 
 ## RESULT:
-Thus, the class named 'Student' with String variable 'name' and String variable 'address' was created successfully.
+Thus, the class named Date with integer variables day, month, and year was created successfully.
