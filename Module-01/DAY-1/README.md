@@ -4,6 +4,7 @@
 To define a class named Date with day, month, and year as data members, get the joining date of an employee from the user, and display it in the format day:month:year using the main() method inside a class named Test.
 
 ## ALGORITHM :
+
 1.	Start the program.
 
 2.Define a class named Date.
