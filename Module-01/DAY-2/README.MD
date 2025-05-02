@@ -62,11 +62,11 @@ public class Main{
 
 ## OUTPUT:
 
-Input	   Expected	      Got	 
+Input	       Expected	           Got	 
 
-a        Lower Case     Lower Case
+a            Lower Case       Lower Case
 
-8        Digit          Digit
+8            Digit            Digit
 
 
 ## RESULT:
