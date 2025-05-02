@@ -60,12 +60,11 @@ public class Main{
 ```
 
 
-
-
-
 ## OUTPUT:
 
-
+Input	   Expected	      Got	 
+a        Lower Case     Lower Case
+8        Digit          Digit
 
 ## RESULT:
 Thus, a Java program was successfully written to check whether the given character is an uppercase alphabet, a lowercase alphabet, or a digit, and it displays the result accordingly.
